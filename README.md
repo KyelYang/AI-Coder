@@ -5,10 +5,12 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
 
 <div align=center><img src="doc/img/code_completion_result_1.jpg" width = 50% height = 50% /></div>   
 
-
+<div align=center>句间调用代码句补全</div>   
 
 
 <div align=center><img src="doc/img/code_completion_result_2.jpg" width = 50% height = 50% /></div>  
+
+<div align=center>句中调用代码句补全</div>   
 
 
 ## 文件结构
@@ -33,7 +35,7 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
 
 在浏览器中输入 localhost:9078/plugin_test?keyword=helloworld ，浏览器返回内容如下。
 
-<div align=center><img src="doc/img/backend_helloworld.jpg" width="50%"/>
+<div align=center><img src="doc/img/backend_helloworld.jpg" width="50%"/></div>  
 
 后端获取 keyword 中的数据，处理之后返回。后续我们使用模型处理输入，道理是一样的。
 
@@ -96,14 +98,14 @@ Crow是一个轻量级的Web服务器框架，这个框架是受Python下的Flas
 
 1) 在IDEA中选择项目根目录右键Open module settings
 
-<div align=center><img src="doc/img/plugin_step1.jpg" width="50%"/>
+<div align=center><img src="doc/img/plugin_step1.jpg" width="50%"/></div>  
 
 设置项目的SDK为本机安装的Pycharm社区版，新建一个SDK，路径选择为安装的pycharm社区版根目录
 
-<div align=center><img src="doc/img/plugin_step2.jpg" width="50%"/>
+<div align=center><img src="doc/img/plugin_step2.jpg" width="50%"/></div>  
 
-<div align=center><img src="doc/img/plugin_step3.jpg" width="50%"/>
+<div align=center><img src="doc/img/plugin_step3.jpg" width="50%"/></div>  
 
 2) 运行项目时会启动一个Pycahrm 窗口，是带有我们这个插件效果的。
 
-<div align=center><img src="doc/img/plugin_example.jpg" width="50%"/>
+<div align=center><img src="doc/img/plugin_example.jpg" width="50%"/></div>  
