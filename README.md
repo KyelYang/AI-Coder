@@ -40,28 +40,25 @@ Crow是一个轻量级的Web服务器框架，这个框架是受Python下的Flas
 
 模型训练环境包含两种：
 #### tensorflow 1
-python 3.5
-
-tensorflow 1.13.1
-
-keras 2.2.4
+- python 3.5
+- tensorflow 1.13.1
+- keras 2.2.4
 
 #### tensorflow 2
-python 3.7
-
-tensorflow 2.2
+- python 3.7
+- tensorflow 2.2
 
 模型代码文件命名时，包含有对应的版本号，比如：
-》 Text_Gen_tf10.ipynb
+> Text_Gen_tf10.ipynb
 表示该代码文件为生成模型，使用的版本为tensorflow 1的版本
 
-### 模型类型
+### 模型介绍
 模型尝试了三种，分别是：
 - 基于长短期记忆的代码句生成模型
 - 基于序列到序列的代码句预测模型
 - 基于Transformer的代码句预测模型
 
-具体的模型文件类型为ipynb，需要用jupyter打开。
+注：模型文件类型为ipynb，需要用jupyter打开。
 
 
 ## 插件
