@@ -1,7 +1,7 @@
 # AI-Coder
 AI-Coder是一种基于PyCharm的代码句补全插件。
 
-具体的补全效果如下：  
+其补全效果如下：  
 
 <div align=center><img src="doc/img/code_completion_result_1.jpg" width = 60% height = 60% /></div> 
     
@@ -16,7 +16,7 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
 
   &nbsp;
   
-## 文件结构
+## 目录结构
 - backend——代码句补全服务器
 - dataset——训练数据集
 - model——代码句补全模型
