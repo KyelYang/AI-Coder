@@ -26,8 +26,8 @@ AI-Coder是一个基于PyCharm的代码句补全插件。
 
 后端获取 keyword 中的数据，处理之后返回。后续我们使用模型处理输入，道理是一样的。
 
-### Crow
-[Crow](https://github.com/ipkn/crow)是一个轻量级的Web服务器框架，这个框架是受Python下的Flask启发的，其实现的功能和Flask基本一致，核心的区别在于Crow是用C++编写的，性能较Flask有一定的提升。
+### [Crow](https://github.com/ipkn/crow)
+Crow是一个轻量级的Web服务器框架，这个框架是受Python下的Flask启发的，其实现的功能和Flask基本一致，核心的区别在于Crow是用C++编写的，性能较Flask有一定的提升。
 
 ## 数据集
 数据集有两个，第一个是Keras领域的代码数据，第二个是TensorFlow领域的代码数据。  
@@ -36,11 +36,32 @@ AI-Coder是一个基于PyCharm的代码句补全插件。
 
 
 ## 模型
-模型实现了三种，分别是：
+### 深度学习环境
+
+模型训练环境包含两种：
+#### tensorflow 1
+python 3.5
+
+tensorflow 1.13.1
+
+keras 2.2.4
+
+#### tensorflow 2
+python 3.7
+
+tensorflow 2.2
+
+模型代码文件命名时，包含有对应的版本号，比如：
+》 Text_Gen_tf10.ipynb
+表示该代码文件为生成模型，使用的版本为tensorflow 1的版本
+
+### 模型类型
+模型尝试了三种，分别是：
 - 基于长短期记忆的代码句生成模型
 - 基于序列到序列的代码句预测模型
 - 基于Transformer的代码句预测模型
 
+具体的模型文件类型为ipynb，需要用jupyter打开。
 
 
 ## 插件
