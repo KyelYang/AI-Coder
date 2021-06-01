@@ -1,10 +1,11 @@
 # AI-Coder
 AI-Coder是一个基于PyCharm的代码句补全插件。
 
-- backend——对应代码句补全服务器
-- plugin——插件开发与配置
-- model——代码句预测模型
-- dataset——模型训练的数据集
+- backend——代码句补全服务器
+- dataset——训练数据集
+- model——代码句补全模型
+- plugin——插件开发配置
+
 
 ## 服务器
 代码句补全服务器使用了两种框架，分别是Flask和Crow。
@@ -29,7 +30,10 @@ AI-Coder是一个基于PyCharm的代码句补全插件。
 [Crow](https://github.com/ipkn/crow)是一个轻量级的Web服务器框架，这个框架是受Python下的Flask启发的，其实现的功能和Flask基本一致，核心的区别在于Crow是用C++编写的，性能较Flask有一定的提升。
 
 ## 数据集
-数据集主要包含两个部分的，第一个是Keras领域的代码数据，第二个是TensorFlow领域的代码数据。
+数据集有两个，第一个是Keras领域的代码数据，第二个是TensorFlow领域的代码数据。  
+
+代码数据中均删除了参数。
+
 
 ## 模型
 模型实现了三种，分别是：
