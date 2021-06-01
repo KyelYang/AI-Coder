@@ -5,12 +5,15 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
 
 <div align=center><img src="doc/img/code_completion_result_1.jpg" width = 50% height = 50% /></div>   
 
-<div align=center>句间调用代码句补全</div>   
+<div align=center>> 句间调用代码句补全</div>   
+  
+  
+  
 
 
 <div align=center><img src="doc/img/code_completion_result_2.jpg" width = 50% height = 50% /></div>  
 
-<div align=center>句中调用代码句补全</div>   
+<div align=center> > 句中调用代码句补全</div>   
 
 
 ## 文件结构
@@ -35,7 +38,7 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
 
 在浏览器中输入 localhost:9078/plugin_test?keyword=helloworld ，浏览器返回内容如下。
 
-<div align=center><img src="doc/img/backend_helloworld.jpg" width="50%"/></div>  
+<img src="doc/img/backend_helloworld.jpg" width="50%"/>
 
 后端获取 keyword 中的数据，处理之后返回。后续我们使用模型处理输入，道理是一样的。
 
