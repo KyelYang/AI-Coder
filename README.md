@@ -10,8 +10,8 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
     padding: 2px;">句间调用代码句补全</div>
 </div>    
   
-  
-  
+  &nbsp;
+  &nbsp;
 
 
 <div align=center><img src="doc/img/code_completion_result_2.jpg" width = 50% height = 50% /></div>  
