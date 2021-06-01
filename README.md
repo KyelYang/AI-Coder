@@ -5,22 +5,24 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
 
 <div align=center><img src="doc/img/code_completion_result_1.jpg" width = 50% height = 50% /></div> 
     
-<div align=center> "句中调用代码句补全" </div> 
+<div align=center> 句中调用代码句补全 </div> 
   
   &nbsp;
 
 
 <div align=center><img src="doc/img/code_completion_result_2.jpg" width = 50% height = 50% /></div>  
 
-<div align=center> "句间调用代码句补全" </div>   
+<div align=center> 句间调用代码句补全 </div>   
 
-
+  &nbsp;
+  
 ## 文件结构
 - backend——代码句补全服务器
 - dataset——训练数据集
 - model——代码句补全模型
 - plugin——插件开发配置
 
+  &nbsp;
 
 ## 服务器
 代码句补全服务器尝试了两种框架，分别是Flask和Crow。
@@ -44,11 +46,15 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
 ### [Crow](https://github.com/ipkn/crow)
 Crow是一个轻量级的Web服务器框架，这个框架是受Python下的Flask启发的，其实现的功能和Flask基本一致，核心的区别在于Crow是用C++编写的，性能较Flask有一定的提升。
 
+  &nbsp;
+  
 ## 数据集
 数据集有两个，第一个是Keras领域的代码数据，第二个是TensorFlow领域的代码数据。  
 
 代码数据中均删除了参数。
 
+  &nbsp;
+  
 
 ## 模型
 ### 深度学习环境
@@ -81,6 +87,8 @@ Crow是一个轻量级的Web服务器框架，这个框架是受Python下的Flas
   
 注：模型文件类型为ipynb，需要用jupyter打开。
 
+  &nbsp;
+  
 
 ## 插件
 
