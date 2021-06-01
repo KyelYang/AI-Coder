@@ -18,7 +18,7 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
 
 #### 2. 运行
 
-进入 backend 文件夹，运行 serve.py。
+进入 backend 文件夹，运行 server_demo.py。
 
 在浏览器中输入 localhost:9078/plugin_test?keyword=helloworld ，浏览器返回内容如下。
 
