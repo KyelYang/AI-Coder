@@ -1,5 +1,5 @@
 # AI-Coder
-AI-Coder是一个基于PyCharm的代码句补全插件。
+AI-Coder是一种基于PyCharm的代码句补全插件。
 
 - backend——代码句补全服务器
 - dataset——训练数据集
@@ -48,8 +48,8 @@ Crow是一个轻量级的Web服务器框架，这个框架是受Python下的Flas
 - python 3.7
 - tensorflow 2.2
 
-模型代码文件命名时，包含有对应的版本号，比如：
-> Text_Gen_tf10.ipynb
+从模型代码的文件名中可以得知对应的版本号，例如：
+> Text_Gen_tf10.ipynb  
 表示该代码文件为生成模型，使用的版本为tensorflow 1的版本
 
 ### 模型介绍
