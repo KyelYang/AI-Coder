@@ -1,5 +1,5 @@
 # AI-Coder
-AI-Coder是一种基于PyCharm的代码句补全插件。
+AI-Coder是一款基于PyCharm的代码句补全插件。
 
 其补全效果如下：  
 
