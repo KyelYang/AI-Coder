@@ -9,7 +9,7 @@ AI-Coder是一种基于PyCharm的代码句补全插件。
 
 ## 服务器
 代码句补全服务器尝试了两种框架，分别是Flask和Crow。
-### flask
+### Flask
 
 #### 1. 准备
 
